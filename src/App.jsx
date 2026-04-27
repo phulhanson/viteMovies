@@ -1,9 +1,9 @@
 import './css/App.css';
 import Favourites from './pages/Favourites';
-import Home from "./pages/home"
+import Home from "./pages/Home"
 import {Routes, Route} from "react-router-dom"
 import NavBar  from './components/NavBar';
-import Footer from './pages/footer';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -15,9 +15,7 @@ function App() {
         <Route path='/favourites' element={<Favourites />} />
       </Routes>
     </main>
-    <Footer>
-      <Footer />
-    </Footer>
+      <Footer/>
     </div>
   );
 }

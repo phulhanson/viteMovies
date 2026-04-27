@@ -2,6 +2,7 @@
   padding: 2rem 0;
   width: 100%;
   box-sizing: border-box;
+  z-index: 1;
 }
 
 .search-form {
@@ -61,14 +62,4 @@
   padding: 1rem;
   width: 100%;
   box-sizing: border-box;
-}
-
-.footer {
-  background: linear-gradient(to right, #333, black);
-  color: white;
-  text-align: center;
-  padding: 80px 20px;
-  position: relative;
-  overflow: hidden;
-  
 }
